@@ -1,7 +1,7 @@
 # KAPA-Total-RNA-Simulation-on-Sciclone-G3
 KAPA Total RNA protocol simulation on Sciclone G3 created using [P5.js library](https://p5js.org/libraries/)
 
-This is a simulation of KAPA Total RNA NGS protocol on the Perkin Elmer Sciclone G3 Deck. 
+This is a [simulation](https://shaikhfarheen03.github.io/KAPA-Total-RNA-Simulation-on-Sciclone-G3/) of KAPA Total RNA NGS protocol on the Perkin Elmer Sciclone G3 Deck. 
 
 Sciclone G3 is a Perkin Elmer instrument which can process various Next Generation sequencing protocols. 
 

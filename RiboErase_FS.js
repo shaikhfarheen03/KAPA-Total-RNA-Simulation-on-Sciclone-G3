@@ -1,3 +1,4 @@
+// KAPA Total RNA Simulation on the Sciclone G3 
 // Variables 
 
 var w = 800;

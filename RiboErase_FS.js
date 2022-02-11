@@ -162,17 +162,17 @@ function mySelectEvent() {
     }
 }
 
-// This fucntion allows the user to download the protocol. As the protocol is propreitery to NYGC, this step has been disabled. 
-// function downloadPdf() {
-//     var item = download.value();
-//     if (item === "RiboErase and cDNA step details") {
-//         lkn = createA('/Users/fshaikh/NYGC/KAPA_str_RNA_RiboErase_Automation/Automated_method_out_of_the_box/Automated_KAPA_Stranded_RNA_method_(Out_of_the_Box)_04182017Test.html', 'Click here', '_blank');
-//         lkn.position(500, h + 90);
-//     } else if (item === 'Library Prep and Post PCR SPRI') {
-//         lkn = createA('/Users/fshaikh/NYGC/KAPA_str_RNA_RiboErase_Automation/Automated_method_out_of_the_box/Day2/DAY2–KAPA_RNA_LibraryPrep_and_PostPCRSPRI_ Updated_07182017Test.html', 'Click here', '_blank');
-//         lkn.position(500, h + 90);
-//     }
-// }
+// This function allows the user to download the protocol. As the protocol is propreitery to NYGC, this step has been disabled. 
+function downloadPdf() {
+    var item = download.value();
+    if (item === "RiboErase and cDNA step details") {
+        lkn = createA('/Users/fshaikh/NYGC/KAPA_str_RNA_RiboErase_Automation/Automated_method_out_of_the_box/Automated_KAPA_Stranded_RNA_method_(Out_of_the_Box)_04182017Test.html', 'Click here', '_blank');
+        lkn.position(500, h + 90);
+    } else if (item === 'Library Prep and Post PCR SPRI') {
+        lkn = createA('/Users/fshaikh/NYGC/KAPA_str_RNA_RiboErase_Automation/Automated_method_out_of_the_box/Day2/DAY2–KAPA_RNA_LibraryPrep_and_PostPCRSPRI_ Updated_07182017Test.html', 'Click here', '_blank');
+        lkn.position(500, h + 90);
+    }
+}
 
 
 // This function draws a canvas for the deck 

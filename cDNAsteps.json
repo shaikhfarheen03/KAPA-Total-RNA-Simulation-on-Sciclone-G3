@@ -1,0 +1,1236 @@
+var steps =
+[
+ {
+   "counter": 0,
+   "text": "Set temperature of Inheco block units --- A3-4C, A4-4C, D2-22C, D4-4C",
+   "Dloc1": "A3",
+   "Dloc2": "A4",
+   "Dloc3": "D2",
+   "Dloc4": "D4",
+   "Position": ""
+ },
+ {
+   "counter": 1,
+   "text": "Pick lid from A3",
+   "Dloc1": "A3",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": ""
+ },
+ {
+   "counter": 2,
+   "text": "Place lid at A2",
+   "Dloc1": "A2",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": "A3[1].y = A2[0].y, A3[1].x = A2[0].x;"
+ },
+ {
+   "counter": 3,
+   "text": "Pick lid from A4",
+   "Dloc1": "A4",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": ""
+ },
+ {
+   "counter": 4,
+   "text": "Place lid at B2",
+   "Dloc1": "B2",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": "A4[1].y = B2[0].y, A4[1].x = B2[0].x;"
+ },
+ {
+   "counter": 5,
+   "text": "Load tips",
+   "Dloc1": "C3",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": ""
+ },
+ {
+   "counter": 6,
+   "text": "Aspirate 14ul of 2X FPE from A4 (column by column)",
+   "Dloc1": "A4",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": ""
+ },
+ {
+   "counter": 7,
+   "text": "Dispense 14ul of FPE into A3 (quadrant 4)",
+   "Dloc1": "A3",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": ""
+ },
+ {
+   "counter": 8,
+   "text": "Eject tips",
+   "Dloc1": "D5",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": ""
+ },
+ {
+   "counter": 9,
+   "text": "Move head into reserve tip box position, so that the user can check for bubbles",
+   "Dloc1": "A2",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": ""
+ },
+ {
+   "counter": 10,
+   "text": "Load tips",
+   "Dloc1": "C3",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": ""
+ },
+ {
+   "counter": 11,
+   "text": "Aspirate 12uL of Fragment Prime Elute mix from A3",
+   "Dloc1": "A3",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": ""
+ },
+ {
+   "counter": 12,
+   "text": "Dispense all at D4",
+   "Dloc1": "D4",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": ""
+ },
+ {
+   "counter": 13,
+   "text": "Mix sample and Fragment Prime Elute mix",
+   "Dloc1": "D4",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": ""
+ },
+ {
+   "counter": 14,
+   "text": "Full dispense",
+   "Dloc1": "D4",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": ""
+ },
+ {
+   "counter": 15,
+   "text": "Eject tips",
+   "Dloc1": "D5",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": ""
+ },
+ {
+   "counter": 16,
+   "text": "Move head into reserve tip box position so that the user can fragment the samples on the thermocycler",
+   "Dloc1": "A2",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": "D4[0].x = -200;"
+ },
+ {
+   "counter": 17,
+   "text": "Load tips",
+   "Dloc1": "C3",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": ""
+ },
+ {
+   "counter": 18,
+   "text": "Aspirate 12uL of first strand MM from A4 (column1)",
+   "Dloc1": "A4",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": ""
+ },
+ {
+   "counter": 19,
+   "text": "Dispense all into quadrant 2 of the 384 well plate at A3",
+   "Dloc1": "A3",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": ""
+ },
+ {
+   "counter": 20,
+   "text": "Full dispense",
+   "Dloc1": "A3",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": ""
+ },
+ {
+   "counter": 21,
+   "text": "Eject tips",
+   "Dloc1": "D5",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": ""
+ },
+ {
+   "counter": 22,
+   "text": "Move head into reserve tip box position, so that the user can check for bubbles",
+   "Dloc1": "A2",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": ""
+ },
+ {
+   "counter": 23,
+   "text": "Pick lid from B2",
+   "Dloc1": "B2",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": ""
+ },
+ {
+   "counter": 24,
+   "text": "Place lid at A4",
+   "Dloc1": "A4",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": "A4[1].y = A4[0].y, A4[1].x = A4[0].x;"
+ },
+ {
+   "counter": 25,
+   "text": "Load tips",
+   "Dloc1": "C3",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": "D4[0].x = 533.333333333334;"
+ },
+ {
+   "counter": 26,
+   "text": "Aspirate 10uL of first strand MM from quadrant 2 of 384 well plate",
+   "Dloc1": "A3",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": ""
+ },
+ {
+   "counter": 27,
+   "text": "Dispense all at D4",
+   "Dloc1": "D4",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": ""
+ },
+ {
+   "counter": 28,
+   "text": "Mix",
+   "Dloc1": "D4",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": ""
+ },
+ {
+   "counter": 29,
+   "text": "Full dispense",
+   "Dloc1": "D4",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": ""
+ },
+ {
+   "counter": 30,
+   "text": "Eject tips",
+   "Dloc1": "D5",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": ""
+ },
+ {
+   "counter": 31,
+   "text": "Move head into reserve tip box position and proceed with 1st strand synthesis on the thermocycler",
+   "Dloc1": "A2",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": "D4[0].x = -200;"
+ },
+ {
+   "counter": 32,
+   "text": "Set shaker at D4 to 16C, Set D2 to 4C",
+   "Dloc1": "D4",
+   "Dloc2": "D2",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": ""
+ },
+ {
+   "counter": 33,
+   "text": "Pick lid from A4",
+   "Dloc1": "A4",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": ""
+ },
+ {
+   "counter": 34,
+   "text": "Place Lid at A2 (stack on top of another lid)",
+   "Dloc1": "A2",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": "A4[1].y = A2[0].y, A4[1].x = A2[0].x;"
+ },
+ {
+   "counter": 35,
+   "text": "Load tips",
+   "Dloc1": "C3",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": ""
+ },
+ {
+   "counter": 36,
+   "text": "Aspirate 32uL from column 2 of A4",
+   "Dloc1": "A4",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": ""
+ },
+ {
+   "counter": 37,
+   "text": "Dispense all in quadrant 3 of 384 well plate at A3",
+   "Dloc1": "A3",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": ""
+ },
+ {
+   "counter": 38,
+   "text": "Eject tips",
+   "Dloc1": "D5",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": ""
+ },
+ {
+   "counter": 39,
+   "text": "Move head into reserve tip box position, so that the user can check for bubbles",
+   "Dloc1": "A2",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": ""
+ },
+ {
+   "counter": 40,
+   "text": "Pick lid from A2",
+   "Dloc1": "A2",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": ""
+ },
+ {
+   "counter": 41,
+   "text": "Place lid at A3",
+   "Dloc1": "A3",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": "A4[1].y = A3[0].y, A4[1].x = A3[0].x;"
+ },
+ {
+   "counter": 42,
+   "text": "Pick lid from A2",
+   "Dloc1": "A2",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": ""
+ },
+ {
+   "counter": 43,
+   "text": "Place lid at A4",
+   "Dloc1": "A4",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": "A3[1].y = A4[0].y, A3[1].x = A4[0].x;"
+ },
+ {
+   "counter": 44,
+   "text": "Wait for temperature at D2 to reach 4C and D4 to reach 16C",
+   "Dloc1": "D2",
+   "Dloc2": "D4",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": "D4[0].x = 266.6666666666667;"
+ },
+ {
+   "counter": 45,
+   "text": "Pick lid from A3",
+   "Dloc1": "A3",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": ""
+ },
+ {
+   "counter": 46,
+   "text": "Place lid at A2",
+   "Dloc1": "A2",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": "A4[1].y = A2[0].y, A4[1].x = A2[0].x;"
+ },
+ {
+   "counter": 47,
+   "text": "Load tips ",
+   "Dloc1": "C3",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": ""
+ },
+ {
+   "counter": 48,
+   "text": "Aspirate 15uL from quadrant 3 of 384 well plate at A3",
+   "Dloc1": "A3",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": ""
+ },
+ {
+   "counter": 49,
+   "text": "Aspirate 15uL from quadrant 3 of 384 well plate at A3",
+   "Dloc1": "A3",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": ""
+ },
+ {
+   "counter": 50,
+   "text": "Dispense 12uL at D2",
+   "Dloc1": "D2",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": ""
+ },
+ {
+   "counter": 51,
+   "text": "Full dispense",
+   "Dloc1": "D2",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": ""
+ },
+ {
+   "counter": 52,
+   "text": "Mix ",
+   "Dloc1": "D2",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": ""
+ },
+ {
+   "counter": 53,
+   "text": "Full dispense",
+   "Dloc1": "D2",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": ""
+ },
+ {
+   "counter": 54,
+   "text": "Eject tips ",
+   "Dloc1": "D5",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": ""
+ },
+ {
+   "counter": 55,
+   "text": "Pick sample plate from D2",
+   "Dloc1": "D2",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": ""
+ },
+ {
+   "counter": 56,
+   "text": "Place sample plate at D4",
+   "Dloc1": "D4",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": "D4[0].x = 533.33333333333334;"
+ },
+ {
+   "counter": 57,
+   "text": "Set temperature of thermal locator D2 to 22C ",
+   "Dloc1": "D2",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": ""
+ },
+ {
+   "counter": 58,
+   "text": "Pick lid from A2",
+   "Dloc1": "A2",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": ""
+ },
+ {
+   "counter": 59,
+   "text": "Place lid at D4",
+   "Dloc1": "D4",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": "A4[1].y = D4[0].y, A4[1].x = D4[0].x;"
+ },
+ {
+   "counter": 60,
+   "text": "Incubate samples for 60 minutes at position D4 set to 16C",
+   "Dloc1": "D4",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": ""
+ },
+ {
+   "counter": 61,
+   "text": "Wait timer; During incubation broadcast A-tail Buffer.",
+   "Dloc1": "D4",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": ""
+ },
+ {
+   "counter": 62,
+   "text": "Pick lid from A4",
+   "Dloc1": "A4",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": ""
+ },
+ {
+   "counter": 63,
+   "text": "Place lid at A2",
+   "Dloc1": "A2",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": "A3[1].y = A2[0].y, A3[1].x = A2[0].x;"
+ },
+ {
+   "counter": 64,
+   "text": "Load tips ",
+   "Dloc1": "C3",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": ""
+ },
+ {
+   "counter": 65,
+   "text": "Aspirate 17uL of A-tailing Mix from A4",
+   "Dloc1": "A4",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": ""
+ },
+ {
+   "counter": 66,
+   "text": "Dispense all quadrant 1 of 384 well plate at A3",
+   "Dloc1": "A3",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": ""
+ },
+ {
+   "counter": 67,
+   "text": "Eject tips",
+   "Dloc1": "D5",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": ""
+ },
+ {
+   "counter": 68,
+   "text": "Move head into reserve tip box position, so that the user can check for bubbles",
+   "Dloc1": "A2",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": ""
+ },
+ {
+   "counter": 69,
+   "text": "Pick lid from A2",
+   "Dloc1": "A2",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": ""
+ },
+ {
+   "counter": 70,
+   "text": "Place lid at A3",
+   "Dloc1": "A3",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": "A3[1].y = A3[0].y, A3[1].x = A3[0].x;"
+ },
+ {
+   "counter": 71,
+   "text": "Wait timer ",
+   "Dloc1": "D4",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": ""
+ },
+ {
+   "counter": 72,
+   "text": "Dispose lid at D4",
+   "Dloc1": "D4",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": "A4[1].x = -200;"
+ },
+ {
+   "counter": 73,
+   "text": "Set temperature of thermal locator 4 to 22C",
+   "Dloc1": "D4",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": ""
+ },
+ {
+   "counter": 74,
+   "text": "Discard Lid from C2",
+   "Dloc1": "C2",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": "C2[1].x = -200;"
+ },
+ {
+   "counter": 75,
+   "text": "Pick SPRI bead plate from C2",
+   "Dloc1": "C2",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": ""
+ },
+ {
+   "counter": 76,
+   "text": "Place SPRI bead plate at D2",
+   "Dloc1": "D2",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": "C2[0].y = 300;"
+ },
+ {
+   "counter": 77,
+   "text": "Load tips",
+   "Dloc1": "C3",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": ""
+ },
+ {
+   "counter": 78,
+   "text": "Mix Ampure beads at D2",
+   "Dloc1": "D2",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": ""
+ },
+ {
+   "counter": 79,
+   "text": "Dialog box- Please remove the plate at D4 and check for bubbles in the bead plate",
+   "Dloc1": "D2",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": ""
+ },
+ {
+   "counter": 80,
+   "text": "Aspirate 51 (long inserts) or 108uL (short inserts) of SPRI beads from D2",
+   "Dloc1": "D2",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": ""
+ },
+ {
+   "counter": 81,
+   "text": "Dispense 51(long inserts) or 108uL (short inserts) of SPRI beads at D4",
+   "Dloc1": "D4",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": ""
+ },
+ {
+   "counter": 82,
+   "text": "Discard Ampure bead plate at D2",
+   "Dloc1": "D2",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": "C2[0].x= -200;"
+ },
+ {
+   "counter": 83,
+   "text": "Mix samples + Ampure at D4",
+   "Dloc1": "D4",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": ""
+ },
+ {
+   "counter": 84,
+   "text": "Dispense All",
+   "Dloc1": "D4",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": ""
+ },
+ {
+   "counter": 85,
+   "text": "Set temperature of thermal locator 3 to 37C for drying",
+   "Dloc1": "D2",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": ""
+ },
+ {
+   "counter": 86,
+   "text": "Shake and Incubate samples and beads at D4 for 10 minutes",
+   "Dloc1": "D4",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": ""
+ },
+ {
+   "counter": 87,
+   "text": "Pick sample plate from D4 ",
+   "Dloc1": "D4",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": ""
+ },
+ {
+   "counter": 88,
+   "text": "Place samples plate at B4",
+   "Dloc1": "B4",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": "D4[0].x = B4[0].x, D4[0].y = B4[0].y;"
+ },
+ {
+   "counter": 89,
+   "text": "Incubate on magnet with no spacer for 5 minutes",
+   "Dloc1": "B4",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": ""
+ },
+ {
+   "counter": 90,
+   "text": "Aspirate 106ul or 160uL of supernatant from B4",
+   "Dloc1": "B4",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": ""
+ },
+ {
+   "counter": 91,
+   "text": "Dispense all into the waste container at A5",
+   "Dloc1": "A5",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": ""
+ },
+ {
+   "counter": 92,
+   "text": "Tip touch at A5",
+   "Dloc1": "A5",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": ""
+ },
+ {
+   "counter": 93,
+   "text": "Eject tips",
+   "Dloc1": "D5",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": ""
+ },
+ {
+   "counter": 94,
+   "text": "Pick lid from B5",
+   "Dloc1": "B5",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": ""
+ },
+ {
+   "counter": 95,
+   "text": "Place lid at C5",
+   "Dloc1": "C5",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": "B5[1].x = C5[0].x, B5[1].y = C5[0].y;"
+ },
+ {
+   "counter": 96,
+   "text": "Pick sample plate from B4",
+   "Dloc1": "B4",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": ""
+ },
+ {
+   "counter": 97,
+   "text": "Place sample plate at C4",
+   "Dloc1": "C4",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": "D4[0].x = C4[0].x, D4[0].y = C4[0].y;"
+ },
+ {
+   "counter": 98,
+   "text": "Load tips",
+   "Dloc1": "C3",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": ""
+ },
+ {
+   "counter": 99,
+   "text": "Aspirate 150uL of 80% EtOH from B5",
+   "Dloc1": "B5",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": ""
+ },
+ {
+   "counter": 100,
+   "text": "Dispense 150uL of 80% EtOH into C4",
+   "Dloc1": "C4",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": ""
+ },
+ {
+   "counter": 101,
+   "text": "Wait for 30 secs",
+   "Dloc1": "C4",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": ""
+ },
+ {
+   "counter": 102,
+   "text": "Aspirate 155uL from C4",
+   "Dloc1": "C4",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": ""
+ },
+ {
+   "counter": 103,
+   "text": "Dispense all into liquid waste at A5",
+   "Dloc1": "A5",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": ""
+ },
+ {
+   "counter": 104,
+   "text": "Tip touch ",
+   "Dloc1": "A5",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": ""
+ },
+ {
+   "counter": 105,
+   "text": "Eject tips",
+   "Dloc1": "D5",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": ""
+ },
+ {
+   "counter": 106,
+   "text": "Load tips",
+   "Dloc1": "C3",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": ""
+ },
+ {
+   "counter": 107,
+   "text": "Aspirate 150uL of 80% EtOH from B5",
+   "Dloc1": "B5",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": ""
+ },
+ {
+   "counter": 108,
+   "text": "Dispense 150uL of 80% EtOH into C4",
+   "Dloc1": "C4",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": ""
+ },
+ {
+   "counter": 109,
+   "text": "Wait for 30 secs",
+   "Dloc1": "C4",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": ""
+ },
+ {
+   "counter": 110,
+   "text": "Aspirate 155uL from C4",
+   "Dloc1": "C4",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": ""
+ },
+ {
+   "counter": 111,
+   "text": "Dispense all into liquid waste at A5",
+   "Dloc1": "A5",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": ""
+ },
+ {
+   "counter": 112,
+   "text": "Tip touch ",
+   "Dloc1": "A5",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": ""
+ },
+ {
+   "counter": 113,
+   "text": "Eject tips",
+   "Dloc1": "D5",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": ""
+ },
+ {
+   "counter": 114,
+   "text": "Pick lid from C5",
+   "Dloc1": "C5",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": ""
+ },
+ {
+   "counter": 115,
+   "text": "Place lid at B5",
+   "Dloc1": "B5",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": "B5[1].x = B5[0].x, B5[1].y = B5[0].y;"
+ },
+ {
+   "counter": 116,
+   "text": "Pick sample plate from C4",
+   "Dloc1": "C4",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": ""
+ },
+ {
+   "counter": 117,
+   "text": "Place sample plate at D2",
+   "Dloc1": "D2",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": "D4[0].x = D2[0].x, D4[0].y = D2[0].y;"
+ },
+ {
+   "counter": 118,
+   "text": "Incubate at 37C for 5 minutes ",
+   "Dloc1": "D2",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": ""
+ },
+ {
+   "counter": 119,
+   "text": "Pick sample plate from D2",
+   "Dloc1": "D2",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": ""
+ },
+ {
+   "counter": 120,
+   "text": "Place sample plate at D4",
+   "Dloc1": "D4",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": "D4[0].x = 533.333333333334"
+ },
+ {
+   "counter": 121,
+   "text": "Pick lid from A3",
+   "Dloc1": "A3",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": ""
+ },
+ {
+   "counter": 122,
+   "text": "Place lid at A2",
+   "Dloc1": "A2",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": "A3[1].y = A2[0].y, A3[1].x = A2[0].x;"
+ },
+ {
+   "counter": 123,
+   "text": "Load tips",
+   "Dloc1": "C3",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": ""
+ },
+ {
+   "counter": 124,
+   "text": "Aspirate 6uL of A-tail Buffer from quadrant 1 of the 384 well plate placed at A3 ",
+   "Dloc1": "A3",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": ""
+ },
+ {
+   "counter": 125,
+   "text": "Aspirate 10uL of A-tail Buffer from quadrant 1 of the 384 well plate placed at A3 ",
+   "Dloc1": "A3",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": ""
+ },
+ {
+   "counter": 126,
+   "text": "Dispense 15uL of A-tail Buffer at D4",
+   "Dloc1": "D4",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": ""
+ },
+ {
+   "counter": 127,
+   "text": "Mix A-tail Master Mix and beads ",
+   "Dloc1": "D4",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": ""
+ },
+ {
+   "counter": 128,
+   "text": "Dispense",
+   "Dloc1": "D4",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": ""
+ },
+ {
+   "counter": 129,
+   "text": "Mix A-tail Master Mix and beads",
+   "Dloc1": "D4",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": ""
+ },
+ {
+   "counter": 130,
+   "text": "Full dispense",
+   "Dloc1": "D4",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": ""
+ },
+ {
+   "counter": 131,
+   "text": "Shake and incubate the sample plate for 5 minutes at D4",
+   "Dloc1": "D4",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": ""
+ },
+ {
+   "counter": 132,
+   "text": "Mix ",
+   "Dloc1": "D4",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": ""
+ },
+ {
+   "counter": 133,
+   "text": "Eject tips",
+   "Dloc1": "D5",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": ""
+ },
+ {
+   "counter": 134,
+   "text": "Pick lid from A2",
+   "Dloc1": "A2",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": ""
+ },
+ {
+   "counter": 135,
+   "text": "Place lid at D4",
+   "Dloc1": "D4",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": "A3[1].y = D4[0].y, A3[1].x = D4[0].x;"
+ },
+ {
+   "counter": 136,
+   "text": "Move head to reserve tip box location",
+   "Dloc1": "A2",
+   "Dloc2": "",
+   "Dloc3": "",
+   "Dloc4": "",
+   "Position": ""
+ }
+]

@@ -1,3 +1,5 @@
+// Variables 
+
 var w = 800;
 var h = 400;
 var cWidth = w / 6;
@@ -28,7 +30,7 @@ var st3;
 var st4;
 var st5;
 
-// Variables for plate location ono the deck
+// Variables for labware location on the deck
 function platePosition() {
     A1Position = createVector(cWidth * 1, 0);
 
@@ -99,7 +101,7 @@ function platePosition() {
 }
 
 
-
+//Function to draw the background and the buttons on the deck
 function setup() {
     method = createP("KAPA Total Stranded RNA with RiboErase, Method 1 - RiboErase");
     far = createP("Select method to view SOP");
@@ -143,6 +145,7 @@ function setup() {
 
 }
 
+// RiboErase method is subdivided into the following five steps. The drop down menu allows the user to jump to the next steps. 
 function mySelectEvent() {
     var item = sel.value();
     if (item === 'Broadcast Reagents') {
@@ -158,19 +161,20 @@ function mySelectEvent() {
     }
 }
 
-function downloadPdf() {
-    var item = download.value();
-    if (item === "RiboErase and cDNA step details") {
-        lkn = createA('/Users/fshaikh/NYGC/KAPA_str_RNA_RiboErase_Automation/Automated_method_out_of_the_box/Automated_KAPA_Stranded_RNA_method_(Out_of_the_Box)_04182017Test.html', 'Click here', '_blank');
-        lkn.position(500, h + 90);
-    } else if (item === 'Library Prep and Post PCR SPRI') {
-        lkn = createA('/Users/fshaikh/NYGC/KAPA_str_RNA_RiboErase_Automation/Automated_method_out_of_the_box/Day2/DAY2–KAPA_RNA_LibraryPrep_and_PostPCRSPRI_ Updated_07182017Test.html', 'Click here', '_blank');
-        lkn.position(500, h + 90);
-    }
-}
+// This fucntion allows the user to download the protocol. As the protocol is propreitery to NYGC, this step has been disabled. 
+// function downloadPdf() {
+//     var item = download.value();
+//     if (item === "RiboErase and cDNA step details") {
+//         lkn = createA('/Users/fshaikh/NYGC/KAPA_str_RNA_RiboErase_Automation/Automated_method_out_of_the_box/Automated_KAPA_Stranded_RNA_method_(Out_of_the_Box)_04182017Test.html', 'Click here', '_blank');
+//         lkn.position(500, h + 90);
+//     } else if (item === 'Library Prep and Post PCR SPRI') {
+//         lkn = createA('/Users/fshaikh/NYGC/KAPA_str_RNA_RiboErase_Automation/Automated_method_out_of_the_box/Day2/DAY2–KAPA_RNA_LibraryPrep_and_PostPCRSPRI_ Updated_07182017Test.html', 'Click here', '_blank');
+//         lkn.position(500, h + 90);
+//     }
+// }
 
 
-
+// This function draws a canvas for the deck 
 function draw() {
 
     // Draw the deck

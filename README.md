@@ -1,7 +1,9 @@
 # KAPA-Total-RNA-Simulation-on-Sciclone-G3
 KAPA Total RNA Next Generation Sequencing protocol [simulation](https://shaikhfarheen03.github.io/KAPA-Total-RNA-Simulation-on-Sciclone-G3/) on Perkin Elmer Sciclone G3 created using [P5.js library](https://p5js.org/libraries/). 
 
-![image](https://user-images.githubusercontent.com/26681884/153704406-289d3554-7ef1-4323-891e-f897b9348646.png)
+The instrument and the deck layout are shown below:
+
+![image](https://perkinelmer-appliedgenomics.com/wp-content/uploads/2018/05/sciclone_g3_workstation_front_600x600.jpg)![image](https://resources.perkinelmer.com/lab-solutions/resources/images_for_resize/Sciclone_G3_NGSx_1051_Interior_Web_700_700.jpg)
 
 
 This simulation was developed in Object Oriented Javascript using p5.js library. 

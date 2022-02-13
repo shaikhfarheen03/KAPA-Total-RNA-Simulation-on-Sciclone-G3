@@ -7,7 +7,7 @@ The instrument and the deck layout are shown below:
 
 
 This simulation was developed in Object Oriented Javascript using p5.js library. 
-The deck locations in the simulation has a stack of labware (plates or lids) which move around the deck to simulate the real program when the user clicks the button next. 
+Each deck location has a labware (plates, lids, or tip box) which moves around the deck to simulate the real program, when the user clicks the button "Next Step". 
 
 ![image](https://github.com/shaikhfarheen03/KAPA-Total-RNA-Simulation-on-Sciclone-G3/blob/main/KAPA%20Total%20RNA%20Simulation%20steps.png)
 
@@ -19,4 +19,4 @@ Similar to the protocol the simulation has been divided into the following four 
 
 Inorder to visualize the steps of a particular protocol, please goto the index.html and comment out the parts you wish to visualize. 
 
-The steps.json file contains information about the deck movements and details of the steps are displyed in a yellow box. 
+The steps.json file contains information about the deck movements, and the details of the steps are displyed in a yellow box. 
